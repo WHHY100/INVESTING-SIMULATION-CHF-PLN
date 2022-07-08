@@ -108,7 +108,7 @@ tax = 0.19;
 amount_PLN = 500;
 save_amount_monthly_PLN = 500;
 do i = 2 to _N_;
-	amount_PLN = round(amount_PLN + ((amount_PLN * interest)/12 - ((amount_PLN * interest)/12*tax))+save_amount_monthly_PLN, .01);
+	amount_PLN = round(amount_PLN + ((amount_PLN * interest)/12 - ((amount_PLN * interest)/12*tax))+save_amount_monthly_PLN, .02);
 end;
 keep year month interest tax save_amount_monthly_PLN amount_PLN;
 run;
@@ -177,11 +177,10 @@ select
 	a.year
 	,a.month
 	,a.interest
-	,a.tax	
 	,a.amount_PLN as amount_PLN_dep_interest
 	,amount_CHF
 	,b.CURR_RATE as CHF_exch_rate
-	,b.amount_PLN as amount_PLN_dep_CHF_nointerest
+	,b.amount_PLN as amount_PLN_dep_CHF
 from tab_deposit_PLN a
 left join tab_exch_CHF b on a.year = b.year and a.month = b.month
 order by a.year, a.month
