@@ -108,7 +108,7 @@ tax = 0.19;
 amount_PLN = 500;
 save_amount_monthly_PLN = 500;
 do i = 2 to _N_;
-	amount_PLN = round(amount_PLN + ((amount_PLN * interest)/12 - ((amount_PLN * interest)/12*tax))+save_amount_monthly_PLN, .02);
+	amount_PLN = round(amount_PLN + ((amount_PLN * interest)/12 - ((amount_PLN * interest)/12*tax))+save_amount_monthly_PLN, .01);
 end;
 keep year month interest tax save_amount_monthly_PLN amount_PLN;
 run;
