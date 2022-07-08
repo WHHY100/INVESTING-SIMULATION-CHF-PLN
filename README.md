@@ -41,7 +41,7 @@ Opłacalność oszczędzania w złotowkach, w badanym okresie, pojawia się dopi
 miesięczną).
 
 Pełny raport z symulacji:
-https://github.com/WHHY100/INVESTING-SIMULATION-CHF-PLN/blob/main/RESULT/FULL_REPORT.pdf
+https://github.com/WHHY100/INVESTING-SIMULATION-CHF-PLN/RESULT/FULL_REPORT.pdf
 
 ## Technologia
 
