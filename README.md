@@ -25,7 +25,7 @@ Oba warianty zakładają wpłaty na poziomie 500zł miesięcznie w badanym okres
 
 ## Wizualizacja
 
-![CHF_PLN img](https://github.com/WHHY100/INVESTING-SIMULATION-CHF-PLN/blob/main/RESULT/LAST_YEAR.jpg?raw=true)
+![CHF_PLN img](https://github.com/WHHY100/INVESTING-SIMULATION-CHF-PLN/blob/main/RESULT/LAST_YEAR.png)
 
 Powyższa tabela prezentuje ostatni rok oszczędzania w dwóch opisanych wcześniej wariantach. Jeżeli w latach 2012-2021 zdecydowalibyśmy się na oszczędzanie 
 w złotówkach na depozycie oprocentowanym na poziomie 3.5% na koniec badanego okresu posiadalibyśmy 69 275,18zł. Z kolei przy wariancie wymiany PLN na CHF 
